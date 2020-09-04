@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c72e8bc0-4e61-437e-8d2b-5f9e60dbdc7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/ann.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/stocks_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/data_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/predict_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/stocks_predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/eb9a99af-b2b0-4aeb-9daa-20b4ffbfbe69.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources/eb9a99af-b2b0-4aeb-9daa-20b4ffbfbe69.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/data_combat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/data_combat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/.ipynb_checkpoints/篮球-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/.ipynb_checkpoints/篮球-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/AssistsAverage_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/AssistsAverage_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/BlockedAverage_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/BlockedAverage_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/FieldGoalsAverage_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/FieldGoalsAverage_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/PersonalFoulsAverage_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/PersonalFoulsAverage_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/PlusMinusAverage_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/PlusMinusAverage_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/PointsAverage_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/PointsAverage_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/ReboundsAverage_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/ReboundsAverage_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/StealsAverage_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/StealsAverage_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/TurnoversAverage_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/TurnoversAverage_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basketball_WorldCup/篮球.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Basketball_WorldCup/篮球.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jay_Chou/Chinese_Stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Jay_Chou/Chinese_Stopwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jay_Chou/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Jay_Chou/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jay_Chou/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Jay_Chou/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analyse_of_King_glory/all_hero_deal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../analyse_of_King_glory/all_hero_deal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analyse_of_King_glory/all_hero_init_attr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../analyse_of_King_glory/all_hero_init_attr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analyse_of_King_glory/all_hero_init_attr_our.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../analyse_of_King_glory/all_hero_init_attr_our.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analyse_of_King_glory/em.py" beforeDir="false" afterPath="$PROJECT_DIR$/../analyse_of_King_glory/em.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analyse_of_King_glory/hero_attr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../analyse_of_King_glory/hero_attr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analyse_of_King_glory/hero_out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../analyse_of_King_glory/hero_out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analyse_of_King_glory/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../analyse_of_King_glory/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analyse_of_King_glory/render.html" beforeDir="false" afterPath="$PROJECT_DIR$/../analyse_of_King_glory/render.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analyse_of_King_glory/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../analyse_of_King_glory/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boss_spider/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boss_spider/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boss_spider/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boss_spider/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boss_spider/get_details.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boss_spider/get_details.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boss_spider/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boss_spider/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../breast_cancer_prediction/breast_cancer_data-master/breast_linearsvm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../breast_cancer_prediction/breast_cancer_data-master/breast_linearsvm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../breast_cancer_prediction/breast_cancer_data-master/breast_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../breast_cancer_prediction/breast_cancer_data-master/breast_svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../breast_cancer_prediction/breast_cancer_data-master/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../breast_cancer_prediction/breast_cancer_data-master/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../breast_cancer_prediction/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../breast_cancer_prediction/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../college/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college/college_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../college/college_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../college/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/.idea/learn_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/.idea/learn_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/alltest0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/alltest0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/alltest1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/alltest1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/alltest2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/alltest2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/alltest3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/alltest3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/stop/stopword.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/stop/stopword.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/体育/1108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/体育/1108.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/体育/476.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/体育/476.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/女性/708.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/女性/708.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/文学/618.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/文学/618.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/文学/619.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/text_classification-master/text classification/train/文学/619.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/change_labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/change_labels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/fenci.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/fenci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_learn_test_fordocument_sortby_teacher/util/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../digits_predict/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../digits_predict/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/alltest0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/alltest0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/alltest1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/alltest1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/alltest2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/alltest2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/alltest3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/alltest3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/stop/stopword.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/stop/stopword.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/体育/1108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/体育/1108.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/体育/476.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/体育/476.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/女性/708.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/女性/708.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/文学/618.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/文学/618.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/文学/619.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/text_classification-master/text classification/train/文学/619.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/util/change_labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/util/change_labels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/util/fenci.py" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/util/fenci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document_sort/util/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../document_sort/util/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../football/yingchao/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../football/yingchao/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../football/yingchao/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../football/yingchao/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../football/yingchao/player_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../football/yingchao/player_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../football/yingchao/yingchao_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../football/yingchao/yingchao_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/.idea/honglou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/.idea/honglou.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/NameNode.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/NameNode.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/relationship.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/relationship.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/render.html" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/render.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/renwu_forcut" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/renwu_forcut" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/renwu_total" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/renwu_total" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../honglou/红楼梦.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../honglou/红楼梦.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maoyan/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maoyan/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maoyan/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maoyan/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maoyan/maoyan_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../maoyan/maoyan_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/.idea/nvshendahui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/.idea/nvshendahui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/.idea/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/.idea/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/data/nvshen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/data/nvshen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/gunicorn" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/gunicorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/static/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/static/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/static/css/star.css" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/static/css/star.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/static/css/starnew.css" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/static/css/starnew.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/static/js/lazyload.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/static/js/lazyload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/static/js/pinterest_grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/static/js/pinterest_grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/templates/nvshen.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/templates/nvshen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/app/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/app/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/baidu_aip.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/baidu_aip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/charts.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/charts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/download_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/download_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1028512.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1028512.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1033809.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1033809.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1039791.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1039791.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1053424.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1053424.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1069476.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1069476.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1072265.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1072265.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1075312.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1075312.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1078899.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1078899.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1081668.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1081668.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1083878.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1083878.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1131610.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1131610.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1135358.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1135358.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1135665.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1135665.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1137501.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1137501.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1137537.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1137537.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1139355.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1139355.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1139540.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1139540.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1146710.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1146710.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1146909.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1146909.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1148667.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1148667.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1151703.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1151703.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1153133.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1153133.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1155543.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1155543.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1158300.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1158300.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1158313.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1158313.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1167991.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1167991.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1168209.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1168209.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1173681.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1173681.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1174124.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1174124.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1179558.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1179558.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/1179853.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/1179853.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/795697.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/795697.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/797779.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/797779.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/798893.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/798893.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/799761.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/799761.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/800587.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/800587.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/802051.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/802051.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/802767.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/802767.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/804087.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/804087.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/804913.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/804913.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/806213.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/806213.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/807093.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/807093.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/807937.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/807937.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/809533.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/809533.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/810539.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/810539.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/811183.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/811183.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/812123.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/812123.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/812559.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/812559.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/813611.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/813611.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/814697.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/814697.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/815811.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/815811.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/816963.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/816963.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/817227.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/817227.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/818107.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/818107.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/819217.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/819217.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/820149.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/820149.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/820507.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/820507.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/820793.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/820793.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/821787.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/821787.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/822525.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/822525.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/823177.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/823177.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/824093.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/824093.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/824995.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/824995.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/825847.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/825847.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/826965.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/826965.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/827673.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/827673.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/829423.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/829423.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/830441.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/830441.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/831341.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/831341.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/832491.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/832491.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/833579.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/833579.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/834697.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/834697.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/835685.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/835685.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/836819.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/836819.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/838353.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/838353.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/839385.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/839385.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/840601.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/840601.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/841271.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/841271.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/842021.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/842021.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/842925.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/842925.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/844623.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/844623.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/845445.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/845445.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/846549.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/846549.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/846609.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/846609.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/847693.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/847693.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/848805.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/848805.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/849837.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/849837.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/850839.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/850839.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/852205.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/852205.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/853491.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/853491.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/854705.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/854705.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/855067.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/855067.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/856083.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/856083.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/856811.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/856811.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/856939.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/856939.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/858133.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/858133.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/859181.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/859181.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/860193.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/860193.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/861055.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/861055.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/861843.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/861843.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/862721.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/862721.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/863487.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/863487.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/864665.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/864665.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/865229.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/865229.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/866523.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/866523.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/868005.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/868005.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/868647.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/868647.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/868875.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/868875.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/869631.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/869631.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/869856.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/869856.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/870060.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/870060.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/870554.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/870554.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/871059.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/871059.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/871511.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/871511.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/871726.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/871726.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/872099.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/872099.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/872711.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/872711.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/873102.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/873102.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/873294.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/873294.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/873302.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/873302.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/874221.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/874221.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/874754.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/874754.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/874930.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/874930.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/876179.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/876179.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/876770.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/876770.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/877160.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/877160.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/877778.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/877778.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/878461.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/878461.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/879194.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/879194.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/879830.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/879830.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/880144.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/880144.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/880653.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/880653.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/880707.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/880707.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/881199.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/881199.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/882032.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/882032.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/882432.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/882432.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/883044.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/883044.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/883354.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/883354.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/883393.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/883393.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/884229.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/884229.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/884240.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/884240.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/884621.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/884621.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/884828.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/884828.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/885468.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/885468.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/886131.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/886131.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/886673.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/886673.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/887196.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/887196.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/887630.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/887630.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/888546.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/888546.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/889236.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/889236.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/889907.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/889907.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/890229.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/890229.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/890267.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/890267.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/890958.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/890958.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/891808.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/891808.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/892095.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/892095.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/892716.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/892716.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/893581.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/893581.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/893917.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/893917.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/894604.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/894604.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/895223.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/895223.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/895814.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/895814.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/896424.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/896424.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/896975.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/896975.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/897660.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/897660.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/897935.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/897935.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/898625.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/898625.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/899398.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/899398.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/899794.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/899794.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/900460.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/900460.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/901032.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/901032.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/901654.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/901654.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/902213.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/902213.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/902688.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/902688.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/903404.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/903404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/903859.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/903859.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/904550.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/904550.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/905026.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/905026.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/905591.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/905591.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/905830.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/905830.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/906302.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/906302.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/907033.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/907033.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/907647.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/907647.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/908130.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/908130.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/908611.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/908611.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/909054.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/909054.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/909768.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/909768.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/909997.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/909997.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/910742.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/910742.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/911182.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/911182.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/911792.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/911792.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/912197.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/912197.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/912565.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/912565.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/913219.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/913219.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/913808.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/913808.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/915115.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/915115.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/915667.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/915667.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/915987.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/915987.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/916583.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/916583.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/917324.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/917324.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/917711.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/917711.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/918419.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/918419.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/919191.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/919191.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/932913.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/932913.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/933292.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/933292.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/933793.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/933793.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/934269.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/934269.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/934786.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/934786.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/935610.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/935610.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/935943.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/935943.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/936519.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/936519.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/936939.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/936939.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/938466.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/938466.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/938997.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/938997.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/939487.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/939487.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/940075.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/940075.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/940373.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/940373.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/941250.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/941250.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/941814.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/941814.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/942442.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/942442.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/943095.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/943095.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/943488.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/943488.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/943953.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/943953.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/944208.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/944208.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/945092.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/945092.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/945938.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/945938.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/946650.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/946650.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/947011.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/947011.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/947689.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/947689.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/948245.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/948245.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/949220.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/949220.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/950114.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/950114.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/950556.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/950556.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/950983.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/950983.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/951016.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/951016.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/953347.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/953347.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/953658.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/953658.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/954549.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/954549.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/955682.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/955682.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/956445.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/956445.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/957967.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/957967.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/958601.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/958601.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/959106.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/959106.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/959812.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/959812.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/960962.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/960962.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/961776.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/961776.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/962576.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/962576.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/963996.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/963996.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/964326.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/964326.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/965125.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/965125.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/965913.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/965913.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/966722.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/966722.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/968179.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/968179.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/html_page/990130.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/html_page/990130.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/main_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/main_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/nvshen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/nvshen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/nvshen_new.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/nvshen_new.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/女神大排名-top10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/女神大排名-top10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/女神新排名.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/女神新排名.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nvshendahui/女神词云.html" beforeDir="false" afterPath="$PROJECT_DIR$/../nvshendahui/女神词云.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../people_analyse/人口.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../people_analyse/人口.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../titanic/gender_submission.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../titanic/gender_submission.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../titanic/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../titanic/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../titanic/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../titanic/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../titanic/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../titanic/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tmall_spider/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tmall_spider/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuxiang_KMeans/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tuxiang_KMeans/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/attraction_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/attraction_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/attractions" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/attractions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/china-city-list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/china-city-list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/china-scenic-list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/china-scenic-list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/haha.html" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/haha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/provincial_capital" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/provincial_capital" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/shiyi_attraction_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/shiyi_attraction_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/shiyi_weather_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/shiyi_weather_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/weather_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/weather_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather/world-top-city-list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../weather/world-top-city-list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weibo_mayili_wenzhang/get_comment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../weibo_mayili_wenzhang/get_comment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weibo_mayili_wenzhang/mayili.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../weibo_mayili_wenzhang/mayili.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weibo_mayili_wenzhang/thecloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/../weibo_mayili_wenzhang/thecloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weibo_mayili_wenzhang/wenzhang.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../weibo_mayili_wenzhang/wenzhang.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you163_spider/details_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../you163_spider/details_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you163_spider/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../you163_spider/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you163_spider/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../you163_spider/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zuqiu_KMeans/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../zuqiu_KMeans/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zuqiu_KMeans/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../zuqiu_KMeans/main.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/machine_learning$stocks_predict.coverage" NAME="stocks_predict Coverage Results" MODIFIED="1599136762394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stocks_predict.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/data_service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/stocks_predict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/stocks_dao.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/predict_service.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/ann.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#35#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dao/stock_dao.py" />
+        <option value="$PROJECT_DIR$/test/stocks_predict.py" />
+        <option value="$PROJECT_DIR$/dao/stocks_dao.py" />
+        <option value="$PROJECT_DIR$/service/predict_service.py" />
+        <option value="$PROJECT_DIR$/stocks_predict.py" />
+        <option value="$PROJECT_DIR$/service/data_service.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2048" />
+    <option name="y" value="-129" />
+    <option name="width" value="2048" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.stocks_predict">
+    <configuration name="stocks_predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/stocks_predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="machine_learning" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="machine_learning" />
+      <option name="target" value="$PROJECT_DIR$/stocks_predict.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.machine_learning" />
+      <item itemvalue="Python.stocks_predict" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.stocks_predict" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c72e8bc0-4e61-437e-8d2b-5f9e60dbdc7f" name="Default Changelist" comment="" />
+      <created>1599133808840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599133808840</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2048" y="-129" width="2048" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24974671" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32928178" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60994476" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.63093925" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" weight="0.3414387" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/stocks_predict.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pandas_datareader/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="375" column="23" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pandas_datareader/yahoo/daily.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="121" column="47" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/stocks_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/stocks_dao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/predict_service.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/ann.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#35#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks_predict.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/data_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
